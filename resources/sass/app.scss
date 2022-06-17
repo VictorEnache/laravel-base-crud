@@ -1,1 +1,17 @@
 //
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+footer{
+    text-align: center;
+}
