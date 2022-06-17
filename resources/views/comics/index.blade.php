@@ -19,6 +19,7 @@
                     <td>{{$comic->title}}</td>
                     <td>{{$comic->description}}</td>
                     <td><img src="{{$comic->thumb}}"  width="100" alt=""></td>
+                    <td><a href="{{route('comics.show', $comic->id)}}">modifica</a></td>
                 </tr>
                 @empty
                     <tr>
