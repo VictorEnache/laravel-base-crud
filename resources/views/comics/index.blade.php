@@ -4,6 +4,7 @@
 @section('content')
 
 <div class="container">
+    <a href="{{route('comics.create')}}"><h2 style="color: red;">aggiungi un nuovo fumetto</h2></a>
     <table>
     
         <thead >
